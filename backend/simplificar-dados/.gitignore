@@ -1,0 +1,5 @@
+node_modules
+assets/**/*.json
+assets/*.backup
+assets/*.pbf
+docker/.volumes

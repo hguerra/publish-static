@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgis/postgis:13-3.1
+    volumes:
+      - "./.docker/postgres:/var/lib/postgres/data/"
+    environment:
+      - POSTGRES_USER=geospatialservice
+      - POSTGRES_PASSWORD=geospatialservice
+      - POSTGRES_DB=geospatialservice
+    ports:
+      - 127.0.0.1:5432:5432

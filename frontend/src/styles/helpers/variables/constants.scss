@@ -1,0 +1,73 @@
+/*
+ * This file is a constant file. Read this and use it on styles development!
+ */
+// Variables
+
+// Typography
+$font-xss: 10px;
+$font-xs: 12px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-mdd: 18px;
+$font-lg: 20px;
+$font-lgg: 22px;
+$font-xl: 24px;
+$font-xxl: 26px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$font-body: $font-md;
+$font-title: $font-xxl;
+$font-subtitle: $font-md;
+
+$line-height-text: 1.5;
+$line-height-title: 1.3;
+
+$width-one-third: '(100% / 3)';
+$width-one-third-half: '(100% / 3.5)';
+$width-one-seventh: '(100% / 7)';
+
+// Borders
+$border-primary: solid 2px $color-black-1;
+
+// Borders
+$border-primary: solid 2px $color-black-1;
+$border-thin: solid 1px $color-black-1;
+
+// Border Radius
+$border-radius-sm: 2px;
+$border-radius-md: 4px;
+$border-radius-lg: 8px;
+
+// Border Radius
+$border-radius-sm: 2px;
+$border-radius-md: 4px;
+$border-radius-lg: 8px;
+
+// Inheritance classes
+
+// Typography
+%text {
+  font-size: $font-body;
+  line-height: $line-height-text;
+  color: $color-black-4;
+}
+
+%title {
+  font-size: $font-title;
+  line-height: $line-height-title;
+  color: $color-black-4;
+}
+
+%subtitle {
+  font-size: $font-md;
+  line-height: $line-height-text;
+  color: $color-black-4;
+}
+
+//fonts
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+$font-roboto: 'Roboto', sans-serif, Arial, Helvetica;

@@ -1,0 +1,199 @@
+{
+  "Language": "pt",
+  "Title": "RESTORE+",
+  "Subtitle": "Restauração de Vegetação Nativa no Brasil Considerando o Código Florestal e os Impactos das Mudanças Climáticas",
+  "AppBar": {
+    "buttonDownload": "Baixar",
+    "buttonAbout": "Sobre",
+    "buttonTranslate": {
+      "0": "Português",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "Esta aplicação apresenta cenários de mudanças no uso da terra relacionados à restauração de florestas e vegetação nativa no Brasil. Construídos a partir do cenário IDCImperfect2 de ",
+    "part02": "(Soterroni et al., 2018)",
+    "part03": ", os cenários avaliam a implementação do Código Florestal Brasileiro considerando os impactos das mudanças climáticas. Os cenários se diferem em relação ao controle de desmatamento e às metas de restauração. A tabela abaixo mostra as principais características dos diferentes cenários."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGENDA",
+    "cardTitleType": {
+      "SCENARIO": "CENÁRIO",
+      "ATTRIBUTE": "ATRIBUTO",
+      "BORDER": "",
+      "BACKGROUND": "SEGUNDO PLANO"
+    },
+    "cardValues": {
+      "Mata Atlântica": "Mata Atlântica",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazônia": "Amazônia",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brasil",
+      "Norte": "Norte",
+      "Nordeste": "Nordeste",
+      "Centro-Oeste": "Centro-Oeste",
+      "Sul": "Sul",
+      "Sudeste": "Sudeste"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Cenário",
+        "chips": {
+          "0": {
+            "name": "IDC2",
+            "label": "Baseline",
+            "description": "Cenário de linha de base onde há um controle parcial do desmatamento ilegal nos biomas Amazônia e Cerrado. Não há restauração da vegetação nativa."
+          },
+          "1": {
+            "name": "FC",
+            "label": "FC",
+            "description": "Cenário do Código Florestal (em Inglês, forest code, ou FC) onde o controle do desmatamento ilegal é efetivo em todos os biomas. Os déficits das áreas de preservação permanente são recuperados via restauração passiva. Os déficits de reserva legal são compensados por meio de cotas de reserva ambiental ou restauração passiva."
+          },
+          "2": {
+            "name": "FCnoCRA",
+            "label": "FCnoCRA",
+            "description": "Construído sobre o FC, este cenário assume que não há mercado de Cotas de Reserva Ambiental (CRA) para compensar os déficits de reserva legal."
+          },
+          "3": {
+            "name": "FCnoSFA",
+            "label": "FCnoSFA",
+            "description": "Construído sobre o FC, este cenário assume que a anistia de pequenas propriedades (em Inglês, small farms amnesty, ou SFA) não será concedida. Desta forma, os déficits de reserva legal de pequenas propriedades anteriores a 2008 serão restaurados."
+          },
+          "4": {
+            "name": "FCnoCRAnoSFA",
+            "label": "FCnoCRAnoSFA",
+            "description": "Construído sobre o FC, este cenário assume que o mercado de Cotas de Reserva Ambiental (CRA) não será implementado e a anistia de pequenas propriedades (em Inglês, small farms amnesty, ou SFA) não será concedida."
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Comparar"
+        }
+      },
+      "attribute": {
+        "title": "Atributos",
+        "chips": {
+          "0": {
+            "name": "Natural Vegetation",
+            "label": "Vegetação Nativa",
+            "description": "Esta classe abrange todas as florestas não manejadas e vegetação nativa. Tanto a floresta tropical perene da Amazônia, a floresta decídua da Caatinga e as savanas lenhosas do Cerrado estão incluídas nesta classe."
+          },
+          "1": {
+            "name": "Forest Regenerated",
+            "label": "Restauração",
+            "description": "Floresta passiva e rebrota de outra vegetação nativa necessária para compensar déficits de reserva legal."
+          },
+          "2": {
+            "name": "Planted Forest",
+            "label": "Floresta Plantada",
+            "description": "São plantações de curta rotação, com uma ou poucas espécies e densidade de plantio uniforme, que são utilizadas pelas indústrias de madeira e papel."
+          },
+          "3": {
+            "name": "Agriculture",
+            "label": "Agricultura",
+            "description": "Áreas com as 18 culturas do GLOBIOM, incluindo soja, cana-de-açúcar, milho, mandioca e arroz."
+          },
+          "4": {
+            "name": "Pasture",
+            "label": "Pasto",
+            "description": "Áreas de pasto usadas para pecuária."
+          },
+          "5": {
+            "name": "CR Carbon",
+            "label": "Carbono",
+            "description": "Estoque de carbono com base no mapa de carbono acima e abaixo do solo do Terceiro Inventário de Emissões do Brasil."
+          }
+        }
+      },
+      "border": {
+        "title": "Divisão Geográfica",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhuma",
+            "description": "Não mostrar bordas"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomas",
+            "description": "Seis biomas brasileiros"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brasil",
+            "description": "Território brasileiro"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regiões",
+            "description": "Regiões do Brasil"
+          },
+          "4": {
+            "name": "States",
+            "label": "Estados",
+            "description": "Estados do Brasil"
+          }
+        }
+      },
+      "background": {
+        "title": "Modelo de Grid",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhum",
+            "description": "Sem informações em segundo plano"
+          },
+          "1": {
+            "name": "1x1km",
+            "label": "1x1km",
+            "description": "1x1Km no Equador"
+          },
+          "2": {
+            "name": "50x50km",
+            "label": "50x50km",
+            "description": "50x50km no Equador"
+          }
+        }
+      },
+      "settings": {
+        "title": "Configurações",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Mudanças de 2020",
+            "description": "Comparar mudanças de 2020"
+          },
+          "1": {
+            "name": "Change from 2020",
+            "label": "Mudanças de 2020",
+            "description": "Comparar mudanças de 2020"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "Todos os biomas",
+    "name": "",
+    "description": "",
+    "label": "Gráfico com divisões geográficas",
+    "buttonClose": "Fechar",
+    "chart": {
+      "labelX": "Ano"
+    }
+  }
+}

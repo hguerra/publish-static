@@ -1,0 +1,13 @@
+name: geospatialservice
+channels:
+  - alubbock
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - gdal
+  - pip:
+    - psycopg2==2.8.6

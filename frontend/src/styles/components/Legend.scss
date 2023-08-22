@@ -1,0 +1,32 @@
+.Legend {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Legend-content {
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #e1e1e1;
+    border-radius: 50px;
+  }
+}
+
+.Legend-content_hover {
+  display: flex;
+  cursor: pointer;
+  background-color: #e1e1e1;
+  border-radius: 50px;
+}
+
+.Legend-text {
+  color: $color-black-5;
+  margin: 2px 0 0 $space-1;
+  font-size: $font-xs;
+
+  @media (min-width: $screen-tablet-min) {
+    font-size: $font-sm;
+  }
+}

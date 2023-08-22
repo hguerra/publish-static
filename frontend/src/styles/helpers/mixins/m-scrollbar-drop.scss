@@ -1,0 +1,17 @@
+@mixin m-scrollbar-drop() {
+  // scrollbar
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    @include box-shadow(none);
+    @include border-top-right-radius(10px);
+    @include border-top-left-radius(10px);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba($color-black, 0.12);
+    @include box-shadow(none);
+    @include border-radius(10px);
+  }
+}

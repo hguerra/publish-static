@@ -1,0 +1,21 @@
+$z-index-main: 1;
+$z-index-footer: 2;
+$z-index-taskbar: 3;
+$z-index-popup: 4;
+$z-index-max: 5;
+
+$z-index-multiplier: 10;
+$z-index-middle: $z-index-multiplier / 2;
+$z-index-counter: 1;
+
+$z-index-base-main: $z-index-multiplier * $z-index-main;
+$z-index-base-footer: $z-index-multiplier * $z-index-footer;
+$z-index-base-taskbar: $z-index-multiplier * $z-index-taskbar;
+$z-index-base-popup: $z-index-multiplier * $z-index-popup;
+$z-index-base-max: $z-index-multiplier * $z-index-max;
+
+$z-index-main: $z-index-middle + $z-index-base-main;
+$z-index-footer: $z-index-middle + $z-index-base-footer;
+$z-index-taskbar: $z-index-middle + $z-index-base-taskbar;
+$z-index-popup: $z-index-middle + $z-index-base-popup;
+$z-index-max: $z-index-middle + $z-index-base-max;

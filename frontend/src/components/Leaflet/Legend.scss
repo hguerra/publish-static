@@ -1,0 +1,30 @@
+.leaflet-tooltip-right:before {
+  left: 0;
+  margin-left: -12px;
+  border-right-color: transparent;
+}
+
+.leaflet-tooltip-right {
+  margin-left: -8px;
+}
+
+.leaflet-tooltip {
+  padding: 3px;
+  line-height: 13px;
+}
+
+// Linhas no tooltip
+//
+//.leaflet-tooltip-right:after {
+//  content: '';
+//  width: 2px;
+//  height: 40px;
+//  position: absolute;
+//  z-index: 9999;
+//  background-color: #fdfef7;
+//  transform: rotate(45deg);
+//  top: 6px;
+//  left: -2px;
+//  margin-left: -10px;
+//  border-right-color: transparent;
+//}

@@ -1,0 +1,29 @@
+{
+  "name": "dataservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "topojson": "run-for-every-file --src ./assets/ --dest ./assets/ --file '**/*.json' --not-file '**/*.js' --run 'geo2topo -o {{dest}}{{file-name}}.topo.{{file-ext}} {{dest}}{{file-name-ext}}'",
+    "precision": "run-for-every-file --src ./assets/ --dest ./assets/ --file '**/*.json' --not-file '**/*.js' --run 'geojson-precision -p 2 {{dest}}{{file-name-ext}} {{dest}}{{file-name}}.min.{{file-ext}}'",
+    "json2geobuf": "run-for-every-file --src ./assets/ --dest ./assets/ --file '**/*.json' --not-file '**/*.js' --run 'json2geobuf {{dest}}{{file-name-ext}} > {{dest}}{{file-name}}.pbf'",
+    "format": "prettier --write .",
+    "postgres:up": "docker-compose -f docker/postgresql.yml up -d",
+    "postgres:down": "docker-compose -f docker/postgresql.yml down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "geobuf": "3.0.2"
+  },
+  "devDependencies": {
+    "geojson-precision": "1.0.0",
+    "prettier": "2.3.2",
+    "run-for-every-file": "1.1.0",
+    "shx": "0.3.3",
+    "topojson": "3.0.2",
+    "topojson-server": "3.0.1",
+    "topojson-simplify": "3.0.3"
+  }
+}

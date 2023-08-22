@@ -1,0 +1,55 @@
+@media print {
+  body button,
+  body input,
+  body label {
+    display: none !important;
+  }
+
+  * {
+    background-color: transparent;
+    font-family: $font-roboto-slab;
+    font-size: 12pt !important;
+  }
+
+  .table-print,
+  .table-print * {
+    border: none !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    text-align: center;
+  }
+
+  .table-print th {
+    font-weight: bold !important;
+  }
+
+  .print-only {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background: white;
+    z-index: 99999999;
+    padding: 20px;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .just-print {
+    display: inherit !important;
+  }
+}
+
+@media screen {
+  .just-print {
+    display: none !important;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 9mm;
+}
