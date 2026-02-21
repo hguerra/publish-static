@@ -1,36 +1,107 @@
-## Available Scripts
+# Frontend - BrazilsForestCode SPA
 
-In the project directory, you can run:
+[English](#english) | [Português](#português)
 
-### `npm start`
+## English
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Overview
+This folder contains the legacy geospatial SPA used by INPE/CCST projects.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Current stack:
+1. React 16 + TypeScript
+2. Material UI v4
+3. Leaflet
+4. i18next
+5. geobuf/protobuf (`*.pbf`)
 
-### `npm test`
+### Prerequisites
+1. Node.js `14.19.1` (see `engines` in `package.json`).
+2. npm.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install
+```bash
+cd frontend
+npm install
+```
 
-### `npm run build`
+Optional setup script:
+```bash
+npm run dev:install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Available Commands
+1. `npm start`: runs the app in development mode (`http://localhost:3000`).
+2. `npm test`: runs tests in watch mode.
+3. `npm run build`: creates production build artifacts.
+4. `npm run prettier:check`: checks formatting.
+5. `npm run prettier:format`: formats project files.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Data and Localization Inputs
+1. Vector data (protobuf): `frontend/public/data/*.pbf`
+2. Translations:
+   - `frontend/public/locales/en/translation.json`
+   - `frontend/public/locales/pt/translation.json`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When updating data attributes or layers, review:
+1. `frontend/src/components/Leaflet/feature.service.ts`
+2. `frontend/src/store`
 
-### `npm run eject`
+### Publishing Notes
+Build artifacts are published as static files under `docs/` at repository root, including:
+1. `docs/brazilsforestcode`
+2. `docs/luccme`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For full data pipeline documentation (backend -> frontend -> docs), see `README.md` at repository root.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Português
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Visão Geral
+Esta pasta contém a SPA geoespacial legada usada nos projetos do INPE/CCST.
+
+Stack atual:
+1. React 16 + TypeScript
+2. Material UI v4
+3. Leaflet
+4. i18next
+5. geobuf/protobuf (`*.pbf`)
+
+### Pré-requisitos
+1. Node.js `14.19.1` (veja `engines` no `package.json`).
+2. npm.
+
+### Instalação
+```bash
+cd frontend
+npm install
+```
+
+Script opcional de setup:
+```bash
+npm run dev:install
+```
+
+### Comandos Disponíveis
+1. `npm start`: executa a aplicação em modo de desenvolvimento (`http://localhost:3000`).
+2. `npm test`: executa testes em modo watch.
+3. `npm run build`: gera artefatos de build para produção.
+4. `npm run prettier:check`: valida formatação.
+5. `npm run prettier:format`: formata arquivos do projeto.
+
+### Entradas de Dados e Localização
+1. Dados vetoriais (protobuf): `frontend/public/data/*.pbf`
+2. Traduções:
+   - `frontend/public/locales/en/translation.json`
+   - `frontend/public/locales/pt/translation.json`
+
+Ao alterar atributos de dados ou camadas, revise:
+1. `frontend/src/components/Leaflet/feature.service.ts`
+2. `frontend/src/store`
+
+### Notas de Publicação
+Os artefatos de build são publicados como arquivos estáticos em `docs/` na raiz do repositório, incluindo:
+1. `docs/brazilsforestcode`
+2. `docs/luccme`
+
+Para a documentação completa do pipeline (backend -> frontend -> docs), consulte o `README.md` da raiz.
