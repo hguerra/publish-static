@@ -1,0 +1,199 @@
+{
+  "Language": "en",
+  "Title": "RESTORE+",
+  "Subtitle": "Forest and Native Vegetation Restoration in Brazil Considering Forest Code and Climate Change Impacts",
+  "AppBar": {
+    "buttonDownload": "Download",
+    "buttonAbout": "About",
+    "buttonTranslate": {
+      "0": "English",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "This application presents land use changes scenarios related to forest and native vegetation restoration in Brazil. Built upon the IDCImperfect2 scenario from ",
+    "part02": "(Soterroni et al., 2018)",
+    "part03": ", the scenarios evaluate the implementation of Brazilian Forest Code considering climate change impacts.  The scenarios are different regarding deforestation control and restoration targets. The table below shows the key features of the different scenarios."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGEND",
+    "cardTitleType": {
+      "SCENARIO": "SCENARIO",
+      "ATTRIBUTE": "ATTRIBUTE",
+      "BORDER": "",
+      "BACKGROUND": "BACKGROUND"
+    },
+    "cardValues": {
+      "Mata Atlântica": "Atlantic Forest",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazônia": "Amazon",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brazil",
+      "Norte": "North",
+      "Nordeste": "Northeast",
+      "Centro-Oeste": "Central-West",
+      "Sul": "South",
+      "Sudeste": "Southeast"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Scenario",
+        "chips": {
+          "0": {
+            "name": "IDC2",
+            "label": "Baseline",
+            "description": "Baseline scenario where a partial illegal deforestation control applied in the Amazon and the Cerrado biomes. There is no native vegetation restoration."
+          },
+          "1": {
+            "name": "FC",
+            "label": "FC",
+            "description": "Forest Code (FC) scenario where illegal deforestation control is effective in all biomes. The areas of permanent preservation deficits are fully recovered via passive restoration. Legal reserve deficits are compensated via environmental reserve quotas or passive restoration."
+          },
+          "2": {
+            "name": "FCnoCRA",
+            "label": "FCnoCRA",
+            "description": "Built upon the FC, this scenario assumes there is no environmental reserve quotas (in Portuguese, Cotas de Reserva Ambiental, or CRA) market to compensate for legal reserve deficits."
+          },
+          "3": {
+            "name": "FCnoSFA",
+            "label": "FCnoSFA",
+            "description": "Built upon the FC, this scenario assumes small farms amnesty (SFA) will not be granted, meaning that they will need to restore legal reserve deficits prior to 2008."
+          },
+          "4": {
+            "name": "FCnoCRAnoSFA",
+            "label": "FCnoCRAnoSFA",
+            "description": "Built upon the FC, this scenario assumes no environmental reserve quotas (in Portuguese, Cotas de Reserva Ambiental, or CRA) market as well as no  small farms amnesty (SFA) will be granted."
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Compare"
+        }
+      },
+      "attribute": {
+        "title": "Attribute",
+        "chips": {
+          "0": {
+            "name": "Natural Vegetation",
+            "label": "Native Vegetation",
+            "description": "This class covers all unmanaged forests and native vegetation. Both the evergreen rain forest of Amazon, the deciduous forest of the Caatinga, and woody savannas of the Cerrado are included in this class."
+          },
+          "1": {
+            "name": "Forest Regenerated",
+            "label": "Restoration",
+            "description": "Passive forest and other native vegetation regrowth necessary to compensate legal reserve deficits."
+          },
+          "2": {
+            "name": "Planted Forest",
+            "label": "Planted Forest",
+            "description": "These are short-rotation plantations, with single or few species and uniform planting density, that are used by the wood and paper industries."
+          },
+          "3": {
+            "name": "Agriculture",
+            "label": "Crops",
+            "description": "Areas with the 18 GLOBIOM crops, including soy, sugarcane, corn, cassava, and rice."
+          },
+          "4": {
+            "name": "Pasture",
+            "label": "Pasture",
+            "description": "Pasture areas used for livestock ranching."
+          },
+          "5": {
+            "name": "CR Carbon",
+            "label": "Carbon",
+            "description": "Carbon stock based on the above and below ground carbon map from the Brazil’s Third Emissions Inventory."
+          }
+        }
+      },
+      "border": {
+        "title": "Geographic Division",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do not show borders"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomes",
+            "description": "Six Brazilian Biomes"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brazil",
+            "description": "Brazilian territory"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regions",
+            "description": "Brazilian regions"
+          },
+          "4": {
+            "name": "States",
+            "label": "States",
+            "description": "Brazilian states"
+          }
+        }
+      },
+      "background": {
+        "title": "Model Grid",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do now show background"
+          },
+          "1": {
+            "name": "1x1km",
+            "label": "1x1km",
+            "description": "1x1Km at Equator"
+          },
+          "2": {
+            "name": "50x50km",
+            "label": "50x50km",
+            "description": "50x50km at Equator"
+          }
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Change from 2020",
+            "description": "Compare from 2020"
+          },
+          "1": {
+            "name": "Change from 2020",
+            "label": "Change from 2020",
+            "description": "Compare from 2020"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Map tooltips",
+            "description": "Show map tooltips"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Map tooltips",
+            "description": "Show map tooltips"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "All biomes",
+    "name": "",
+    "description": "",
+    "label": "Graph with all geographic divisions",
+    "buttonClose": "Close",
+    "chart": {
+      "labelX": "Year"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9e8d31ff.chunk.css",
+    "main.js": "./static/js/main.a1ad96fe.chunk.js",
+    "main.js.map": "./static/js/main.a1ad96fe.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.fd4a1bdc.js",
+    "runtime-main.js.map": "./static/js/runtime-main.fd4a1bdc.js.map",
+    "static/js/2.f73a0ef3.chunk.js": "./static/js/2.f73a0ef3.chunk.js",
+    "static/js/2.f73a0ef3.chunk.js.map": "./static/js/2.f73a0ef3.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.00e756cf80fc9a795a6a254826c8e3a5.js": "./precache-manifest.00e756cf80fc9a795a6a254826c8e3a5.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.9e8d31ff.chunk.css.map": "./static/css/main.9e8d31ff.chunk.css.map",
+    "static/js/2.f73a0ef3.chunk.js.LICENSE.txt": "./static/js/2.f73a0ef3.chunk.js.LICENSE.txt",
+    "static/media/bmu-logo.png": "./static/media/bmu-logo.d3e895f3.png",
+    "static/media/getFetch.cjs": "./static/media/getFetch.013f0b90.cjs",
+    "static/media/restore-logo.png": "./static/media/restore-logo.3f38353f.png",
+    "static/media/resume-en.png": "./static/media/resume-en.121e1769.png",
+    "static/media/resume-pt.png": "./static/media/resume-pt.900a7533.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd4a1bdc.js",
+    "static/js/2.f73a0ef3.chunk.js",
+    "static/css/main.9e8d31ff.chunk.css",
+    "static/js/main.a1ad96fe.chunk.js"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "Language": "pt",
+  "Title": "LuccMEBR",
+  "Subtitle": "Novos cenários de mudança de uso da terra para o Brasil",
+  "AppBar": {
+    "buttonDownload": "Baixar",
+    "buttonAbout": "Sobre",
+    "buttonTranslate": {
+      "0": "Português",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "Esta aplicação apresenta os principais resultados do artigo ",
+    "part02": "\"Bezerra et al. (2021) New land use change scenarios for Brazil: refining global SSPs with a regional spatially-explicit allocation model\"",
+    "part03": ". Apresenta cenários de mudanças fundiárias para o Brasil, alinhados com a estrutura global Shared Socio-Economic Pathways (SSPs) e Representative Concentration Pathway (RCPs). As narrativas dos novos cenários se alinham com SSP1 / RCP 1.9, SSP2 / RCP 4.5 e SSP3 / RCP 7.0. Os cenários foram desenvolvidos combinando a estrutura de modelagem de alocação de mudança de terra espacialmente explícita LuccME e o modelo de superfície INLAND para incorporar as variáveis ​​climáticas no déficit hídrico. Os autores agradecem ao projeto Nexus / FAPESP e MSA / BNDES (Monitoramento Ambiental por Satélite no Bioma Amazônia) pelo financiamento do desenvolvimento do LuccMEBR."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGENDA",
+    "cardTitleType": {
+      "SCENARIO": "CENÁRIO",
+      "ATTRIBUTE": "ATRIBUTO",
+      "BORDER": "",
+      "BACKGROUND": "SEGUNDO PLANO"
+    },
+    "cardValues": {
+      "Atlantic Forest": "Mata Atlântica",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazonia": "Amazônia",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brasil",
+      "Norte": "Norte",
+      "Nordeste": "Nordeste",
+      "Centro-Oeste": "Centro-Oeste",
+      "Sul": "Sul",
+      "Sudeste": "Sudeste"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Cenário",
+        "chips": {
+          "0": {
+            "name": "SSP1",
+            "label": "SSP1",
+            "description": "Cenário de desenvolvimento sustentável (SSP1 RCP 1.9)"
+          },
+          "1": {
+            "name": "SSP2",
+            "label": "SSP2",
+            "description": "Cenário no meio da estrada (SSP2 RCP 4.5)"
+          },
+          "2": {
+            "name": "SSP3",
+            "label": "SSP3",
+            "description": "Cenário de forte desigualdade (SSP3 RCP 7.0)"
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Comparar"
+        }
+      },
+      "attribute": {
+        "title": "Atributos",
+        "chips": {
+          "0": {
+            "name": "Forest vegetation",
+            "label": "Floresta",
+            "description": "Áreas ocupadas por florestas, que incluem áreas de Floresta Densa (estrutura florestal com cobertura contínua), Floresta Aberta (estrutura florestal com diferentes graus de descontinuidade da cobertura vegetal, conforme seu tipo com cipó, bambu, palmeira ou sororoca), Floresta Sazonal (estrutura florestal com perda de folhas dos estratos superiores no período desfavorável - seca e fria), além da Floresta Ombrófila Mista (estrutura florestal que compõe a área de distribuição natural de Araucaria angustifolia, elemento marcante nos estratos superiores, que geralmente forma uma capa a ser continuada). Além dessas, foram incluídas outras feições, como Floresta de Savana, Floresta de Campinarana, Campinarana Arborizada e Manguezais, além de áreas úmidas, que correspondem a vegetação herbácea natural, permanentemente ou periodicamente inundadas com água doce ou salobra (estuários, pântanos , etc.). Nessas áreas estão inseridos terrenos de lagoas, pântanos, campos úmidos, entre outros."
+          },
+          "1": {
+            "name": "Pasture planted",
+            "label": "Pasto",
+            "description": "A área é ocupada predominantemente por vegetação herbácea cultivada. São locais de pastagem de gado, formados pelo plantio de forrageiras perenes, sujeitas a interferências antrópicas de alta intensidade, como limpeza do terreno (desobstrução e corte), calagem e fertilização."
+          },
+          "2": {
+            "name": "Agriculture",
+            "label": "Agricultura",
+            "description": "Áreas ocupadas por lavouras temporárias e permanentes, irrigadas ou não, sendo terras destinadas à produção de alimentos, fibras e commodities agroindustriais. Inclui todas as terras cultivadas, que podem ser plantadas ou em repouso, e também como zonas úmidas cultivadas. Pode ser representado por zonas agrícolas heterogêneas ou extensas áreas de plantações."
+          },
+          "3": {
+            "name": "Mosaic of occupation",
+            "label": "Mosaico de ocupação",
+            "description": "Mosaico de atividades agrícolas de pequena escala e resquícios de vegetação natural (por exemplo, agricultura de subsistência)."
+          },
+          "4": {
+            "name": "Forestry",
+            "label": "Floresta plantada",
+            "description": "Florestas plantadas e manejadas com espécies exóticas (ex. Eucalipto, pinheiro)."
+          },
+          "5": {
+            "name": "Others",
+            "label": "Outros",
+            "description": "Superfícies artificiais (por exemplo, cidades, vilas, rotas de transporte, redes de energia e comunicação) e corpos d'água e terras nuas (por exemplo, afloramentos rochosos, dunas, penhascos)."
+          }
+        }
+      },
+      "border": {
+        "title": "Borda",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhuma",
+            "description": "Não mostrar bordas"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomas",
+            "description": "Seis biomas brasileiros"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brasil",
+            "description": "Território brasileiro"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regiões",
+            "description": "Regiões do Brasil"
+          },
+          "4": {
+            "name": "States",
+            "label": "Estados",
+            "description": "Estados do Brasil"
+          }
+        }
+      },
+      "background": {
+        "title": "Segundo plano",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhum",
+            "description": "Sem informações em segundo plano"
+          },
+          "1": {
+            "name": "10x10km",
+            "label": "10x10km",
+            "description": "10x10km no Equador"
+          }
+        }
+      },
+      "settings": {
+        "title": "Configurações",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Valores absolutos",
+            "description": "Mostrar valores absolutos ou comparar mudanças de 2000"
+          },
+          "1": {
+            "name": "Change from 2000",
+            "label": "Mudanças de 2000",
+            "description": "Mostrar valores absolutos ou comparar mudanças de 2000"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Não mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "Todos os biomas",
+    "name": "",
+    "description": "",
+    "label": "Gráficos de todos os atributos",
+    "buttonClose": "Fechar",
+    "chart": {
+      "labelX": "Ano"
+    }
+  }
+}

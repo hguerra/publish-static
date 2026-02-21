@@ -1,0 +1,184 @@
+{
+  "Language": "en",
+  "Title": "LuccMEBR",
+  "Subtitle": "New land use change scenarios for Brazil",
+  "AppBar": {
+    "buttonDownload": "Download",
+    "buttonAbout": "About",
+    "buttonTranslate": {
+      "0": "English",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "This application presents the main results of article ",
+    "part02": "\"Bezerra et al. (2021) New land use change scenarios for Brazil: refining global SSPs with a regional spatially-explicit allocation model\"",
+    "part03": ". Aiming to develop scenarios that consider the balance between global and local factors, a new set of land use change scenarios for Brazil were developed, aligned with the global structure Shared Socio-Economic Pathways (SSPs) and Representative Concentration Pathway (RCPs) developed by the global change research community. The narratives of the new scenarios align with SSP1/RCP 1.9, SSP2/RCP 4.5, and SSP3/RCP 7.0. The scenarios were developed combining the LuccME spatially explicit land change allocation modeling framework and the INLAND surface model to incorporate the climatic variables in water deficit. Based on detailed biophysical, socio-economic and institutional factors for each biome in Brazil, we have created spatially-explicit scenarios until 2050, considering the following classes: forest vegetation, grassland vegetation, planted pasture, agriculture, mosaic of small land uses, and forestry. The results aim at regionally detailing global models and could be used both regionally to support decision-making, but also to enrich global analysis."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGEND",
+    "cardTitleType": {
+      "SCENARIO": "SCENARIO",
+      "ATTRIBUTE": "ATTRIBUTE",
+      "BORDER": "",
+      "BACKGROUND": "BACKGROUND"
+    },
+    "cardValues": {
+      "Atlantic Forest": "Atlantic Forest",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazonia": "Amazonia",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brazil",
+      "Norte": "North",
+      "Nordeste": "Northeast",
+      "Centro-Oeste": "Central-West",
+      "Sul": "South",
+      "Sudeste": "Southeast"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Scenario",
+        "chips": {
+          "0": {
+            "name": "SSP1",
+            "label": "SSP1",
+            "description": "Sustainable development scenario (SSP1 RCP 1.9)"
+          },
+          "1": {
+            "name": "SSP2",
+            "label": "SSP2",
+            "description": "Middle of the road scenario (SSP2 RCP 4.5)"
+          },
+          "2": {
+            "name": "SSP3",
+            "label": "SSP3",
+            "description": "Strong inequality scenario (SSP3 RCP 7.0)"
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Compare"
+        }
+      },
+      "attribute": {
+        "title": "Attribute",
+        "chips": {
+          "0": {
+            "name": "Forest vegetation",
+            "label": "Forest",
+            "description": "Areas occupied by forests, which include areas of Dense Forest (forest structure with continuous top cover), Open Forest (forest structure with different degrees of discontinuity of the top cover, according to its type with vine, bamboo, palm or sororoca), Forest Seasonal (forest structure with loss of leaves from the upper strata during the unfavorable season - dry and cold), in addition to the Mixed Rain Forest (forest structure that comprises the natural distribution area of Araucaria angustifolia, a striking element in the upper strata, which generally forms a cover to be continued). In addition to these, other features were included, such as Savannah Forest, Campinarana Forest, Campinarana Arborizada, and Mangroves, as well as humid areas, which correspond to natural herbaceous vegetation, permanently or periodically flooded with fresh or brackish water (estuaries, swamps, etc.). In these ar- eas the land of ponds, swamps, humid fields, are inserted, among others."
+          },
+          "1": {
+            "name": "Pasture planted",
+            "label": "Pasture",
+            "description": "The area is predominantly occupied by cul- tivated herbaceous vegetation. They are places for cattle grazing, formed by planting perennial forages, subject to high-intensity anthropic interference, such as clearing the land (unblocking and cutting), liming, and fertilizing."
+          },
+          "2": {
+            "name": "Agriculture",
+            "label": "Agriculture",
+            "description": "Areas occupied by temporary crops and per- manent crops, irrigated or not, being land used for the production of food, fiber and agribusiness commodities. It includes all cul- tivated land, which may be planted or at rest, and also as a cultivated wetland. It can be represented by heterogeneous agricultural zones or extensive areas of plantations."
+          },
+          "3": {
+            "name": "Mosaic of occupation",
+            "label": "Mosaic of occupation",
+            "description": "Mosaic of small-scale agricultural activities and remnants of natural vegetation (eg, sub- sistence agriculture)."
+          },
+          "4": {
+            "name": "Forestry",
+            "label": "Planted forest",
+            "description": "Forests planted and managed with exotic species (eg eucalyptus, pine)."
+          },
+          "5": {
+            "name": "Others",
+            "label": "Others",
+            "description": "Artificial surfaces (eg cities, villages, trans- port routes, energy and communication net- works) and bodies of water and bare lands (eg rock outcrops, dunes, cliffs)."
+          }
+        }
+      },
+      "border": {
+        "title": "Border",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do not show borders"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomes",
+            "description": "Six Brazilian Biomes"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brazil",
+            "description": "Brazilian territory"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regions",
+            "description": "Brazilian regions"
+          },
+          "4": {
+            "name": "States",
+            "label": "States",
+            "description": "Brazilian states"
+          }
+        }
+      },
+      "background": {
+        "title": "Background",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do now show background"
+          },
+          "1": {
+            "name": "10x10km",
+            "label": "10x10km",
+            "description": "10x10Km at Equator"
+          }
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Absolute values",
+            "description": "Show absolute values or compare from 2000"
+          },
+          "1": {
+            "name": "Change from 2000",
+            "label": "Change from 2000",
+            "description": "Show absolute values or compare from 2000"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Map tooltips enabled",
+            "description": "Show map tooltips"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Map tooltips disabled",
+            "description": "Show map tooltips"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "All biomes",
+    "name": "",
+    "description": "",
+    "label": "View graph with all attributes",
+    "buttonClose": "Close",
+    "chart": {
+      "labelX": "Year"
+    }
+  }
+}
